@@ -9,19 +9,17 @@ const App = () => {
 
   return (
     <div id="main">
-
-
       <Router>
         <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
-          <route path='/blog' exact>
+          <Route path='/blog'>
             <Blog />
-          </route>
-          <route path='/info' exact>
+          </Route>
+          <Route path='/Info'>
             <Info />
-          </route>
+          </Route>
         </Switch>
       </Router>
     </div>
